@@ -4,7 +4,6 @@ pipeline {
     stage('run collection') {
       steps {
         sh 'npm -v'
-	sh 'npm install -g newman'
       }
     }
   }
