@@ -4,6 +4,7 @@ pipeline {
     stage('run collection') {
       steps {
         sh 'npm -v'
+	sh 'newman run collection-1.json'
       }
     }
   }
